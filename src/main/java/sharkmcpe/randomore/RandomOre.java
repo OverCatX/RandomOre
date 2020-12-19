@@ -8,7 +8,6 @@ public class RandomOre extends PluginBase {
     @Override
     public void onEnable() {
         getLogger().info("สร้างโดย SharkMCPE");
-        this.saveDefaultConfig();
         registerEvent();
     }
 
